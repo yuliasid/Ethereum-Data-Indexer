@@ -18,7 +18,7 @@ Ensure you have Python 3.x installed on your system. Then, follow these steps:
 
 ### Clone the Repository:
 ```
-git clone (https://github.com/yuliasid/Ethereum-Data-Indexer)
+git clone https://github.com/yuliasid/Ethereum-Data-Indexer
 ```
 ### Navigate to the Project Directory:
 ```
