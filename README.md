@@ -16,23 +16,23 @@ Fetch and display the latest block information:
 ## Installation
 Ensure you have Python 3.x installed on your system. Then, follow these steps:
 
-Clone the Repository:
+### Clone the Repository:
 ```
-git clone [https://github.com/yourusername/ethereum_data_indexer.git](https://github.com/yuliasid/Ethereum-Data-Indexer)
+git clone (https://github.com/yuliasid/Ethereum-Data-Indexer)
 ```
-Navigate to the Project Directory:
+### Navigate to the Project Directory:
 ```
 cd ethereum_data_indexer
 ```
 
-Create and Activate a Virtual Environment (optional but recommended):
+### Create and Activate a Virtual Environment (optional but recommended):
 
-On Windows:
++ On Windows:
 ```
 python -m venv venv
 .\venv\Scripts\activate
 ```
-On macOS and Linux:
++ On macOS and Linux:
 ```
 python3 -m venv venv
 source venv/bin/activate
@@ -45,18 +45,18 @@ pip install -r requirements.txt
 ## Usage
 Before running the script, ensure you have set up your ALCHEMY_API_KEY environment variable:
 
-On Windows:
++ On Windows:
 ```
 setx ALCHEMY_API_KEY "YourAlchemyApiKeyHere"
 ```
 
-On macOS/Linux:
++ On macOS/Linux:
 ```
 export ALCHEMY_API_KEY="YourAlchemyApiKeyHere"
 ```
 
 
-To run the Ethereum Blockchain Explorer and fetch the latest block information:
+## To run the Ethereum Blockchain Explorer and fetch the latest block information:
 
 ```
 python blockchain_explorer.py
