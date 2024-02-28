@@ -26,6 +26,7 @@ cd ethereum_data_indexer
 ```
 
 Create and Activate a Virtual Environment (optional but recommended):
+
 On Windows:
 ```
 python -m venv venv
